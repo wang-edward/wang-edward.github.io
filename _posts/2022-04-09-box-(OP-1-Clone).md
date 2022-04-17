@@ -22,5 +22,9 @@ Got the MPC3000 clone working
 
 ---
 
-Got the subtractive synthesizer working. For now it's just the basic tutorial one (16 sines and 16 envelopes), but I think it'll be pretty easy to change the architecture later. I also got started ordering proof of concept parts, and GOD DAMN are SMD breakout boards expensive (Adafruit ones are ~$2.5 each but almost all others are >$7)
+Got the subtractive synthesizer working. 
+* For now it's just the basic tutorial one (16 sines and 16 envelopes), but I think it'll be pretty easy to change the architecture later. 
+* Also organized the sampler into classes. Side note: Allolib + Gamma is really cool and handles all the complex code so it's actually really easy to make cool stuff.
+
+I also got started ordering proof of concept parts, and GOD DAMN are SMD breakout boards expensive (Adafruit ones are ~$2.5 each but almost all others are >$7)
 {% include embed.html url="https://www.youtube.com/embed/9Ugzczsdl9c" %}
