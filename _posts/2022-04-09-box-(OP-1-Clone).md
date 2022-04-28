@@ -10,6 +10,25 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
+### April 28th:
+Got wav visuals working
+{% include embed.html url="https://www.youtube.com/embed/_pIKUf-R2VU" %}
+* Also started working on 2d pixel art filter
+* I think the basic idea is to render to a frame buffer of the desired size (240 x 160), and make that into a texture.
+* Then, you bind the texture to a quad that covers up the entire screen (-1,-1) -> (1,1)
+* Now I just need to figure out how to do that using the ALlolib system
+
+#### Art style & Creative direction
+* One thing that I was thinking about was that I didn't want the box to be a carbon copy of the OP-1, so I think I'm going to go with a 2d pixel art style
+* I really like the look of this game, Celeste
+![image](https://user-images.githubusercontent.com/53409587/165767231-64fb86c6-ddad-4dd9-b673-52ea5df1e7ec.png)
+* It runs at a native resolution of (320 x 180), which is quite comparable to classic retro games
+* Here's a size comparison
+<img width="1440" alt="pixel_art_sizes" src="https://user-images.githubusercontent.com/53409587/165768788-c050768d-96f0-4634-bfe3-8a27e7f109be.png">
+* Right now my plan is to run a (480 x 320) at 3" or 3.5" display, and then downsample it to (240 x 160)
+  * I think this gives it enough of a retro look (equivalent to Gameboy Advance), but also gives the freedom to upsample if needed (i.e. wav visuals should be higher resolution)
+
+
 ### April 15th:
 Got the subtractive synthesizer working. 
 * For now it's just the basic tutorial one (16 sines and 16 envelopes), but I think it'll be pretty easy to change the architecture later. 
