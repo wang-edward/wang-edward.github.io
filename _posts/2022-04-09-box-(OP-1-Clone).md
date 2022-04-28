@@ -16,6 +16,9 @@ Got wav visuals working
 * Also started working on 2d pixel art filter
 * I think the basic idea is to render to a frame buffer of the desired size (240 x 160), and make that into a texture.
 * Then, you bind the texture to a quad that covers up the entire screen (-1,-1) -> (1,1)
+* The upscaling is done with Nearest-Neighbour interpolation, which maintains the sharp lines of the pixel art
+![image](https://user-images.githubusercontent.com/53409587/165774296-47e8ad70-f5c1-41f2-9648-a11cb91a887a.png)
+
 * Now I just need to figure out how to do that using the ALlolib system
 
 #### Art style & Creative direction
@@ -23,9 +26,10 @@ Got wav visuals working
 * I really like the look of this game, Celeste
 ![image](https://user-images.githubusercontent.com/53409587/165767231-64fb86c6-ddad-4dd9-b673-52ea5df1e7ec.png)
 * It runs at a native resolution of (320 x 180), which is quite comparable to classic retro games
-* Here's a size comparison
+
+* Here's a size comparison (from Brandon James Greer)
 <img width="1440" alt="pixel_art_sizes" src="https://user-images.githubusercontent.com/53409587/165768788-c050768d-96f0-4634-bfe3-8a27e7f109be.png">
-* Right now my plan is to run a (480 x 320) at 3" or 3.5" display, and then downsample it to (240 x 160)
+* Right now my plan is to run a (480 x 320) at 3" or 3.5" display, and then downsample it to (240 x 160). This means every "pixel" will be made up of 4 pixels.
   * I think this gives it enough of a retro look (equivalent to Gameboy Advance), but also gives the freedom to upsample if needed (i.e. wav visuals should be higher resolution)
 
 
