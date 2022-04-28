@@ -16,7 +16,7 @@ Got wav visuals working
 * Also started working on 2d pixel art filter
 * I think the basic idea is to render to a frame buffer of the desired size (240 x 160), and make that into a texture.
 * Then, you bind the texture to a quad that covers up the entire screen (-1,-1) -> (1,1)
-* The upscaling is done with Nearest-Neighbour interpolation, which maintains the sharp lines of the pixel art
+* The upscaling is done with [Nearest-Neighbour interpolation](https://www.youtube.com/watch?v=AqscP7rc8_M), which maintains the sharp lines of the pixel art
 ![image](https://user-images.githubusercontent.com/53409587/165774296-47e8ad70-f5c1-41f2-9648-a11cb91a887a.png)
 
 * Now I just need to figure out how to do that using the ALlolib system
