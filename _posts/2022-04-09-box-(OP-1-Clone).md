@@ -10,6 +10,20 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
+### April 29th:
+Got pixel drawing working
+
+{% include embed.html url="https::/www.youtube.com/embed/o6XfxsDwJVM" %}
+
+I'm using the [Midpoint circle algorithm](https://groups.csail.mit.edu/graphics/classes/6.837/F98/Lecture6/circle.html) to draw circles
+
+![image](https://user-images.githubusercontent.com/53409587/165978559-af9d6096-1777-42dd-912a-32bc81e70d79.png)
+
+Circles are very symmterical, so you can save a lot of time by just making 1 computation and repeating it 8 times
+![image](https://user-images.githubusercontent.com/53409587/165980601-e8f2ef77-3555-4e8a-b03e-036479ac3df4.png)
+
+
+
 ### April 28th:
 Got wav visuals working
 {% include embed.html url="https://www.youtube.com/embed/_pIKUf-R2VU" %}
