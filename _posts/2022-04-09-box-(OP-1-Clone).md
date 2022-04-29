@@ -13,13 +13,13 @@ I'm going to try and make updates to this post as I go, as last time it was real
 ### April 29th:
 Got pixel drawing working
 
-{% include embed.html url="https::/www.youtube.com/embed/o6XfxsDwJVM" %}
+{% include embed.html url="https://www.youtube.com/embed/o6XfxsDwJVM" %}
 
 I'm using the [Midpoint circle algorithm](https://groups.csail.mit.edu/graphics/classes/6.837/F98/Lecture6/circle.html) to draw circles
 
-![image](https://user-images.githubusercontent.com/53409587/165978559-af9d6096-1777-42dd-912a-32bc81e70d79.png)
+![Midpoint_circle_algorithm_animation_(radius_23)](https://user-images.githubusercontent.com/53409587/165981810-d5f8e860-e29e-44f0-a1db-a31bd49ea962.gif)
 
-Circles are very symmterical, so you can save a lot of time by just making 1 computation and repeating it 8 times
+Circles are very symmetrical, so you can save a lot of time by just making 1 computation and repeating it 8 times
 ![image](https://user-images.githubusercontent.com/53409587/165980601-e8f2ef77-3555-4e8a-b03e-036479ac3df4.png)
 
 
