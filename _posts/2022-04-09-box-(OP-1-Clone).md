@@ -13,7 +13,7 @@ I'm going to try and make updates to this post as I go, as last time it was real
 ### April 29th:
 Got pixel drawing working
 
-{% include embed.html url="https://www.youtube.com/embed/o6XfxsDwJVM" %}
+{% include embed.html url="https://www.youtube.com/embed/k90510pb15o" %}
 
 I'm using the [Midpoint circle algorithm](https://groups.csail.mit.edu/graphics/classes/6.837/F98/Lecture6/circle.html) to draw circles
 
