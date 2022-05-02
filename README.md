@@ -8,7 +8,7 @@ layout: page
           .,
 .      _,'f----.._
 |\ ,-'"/  |     ,'
-|,_  ,--.      /              Student Developer / Incoming Computer Engineering student at ???
+|,_  ,--.      /              Student Developer
 /,-. ,'`.     (_                        Interested in:
 f  o|  o|__     "`-.                              * Computer graphics (especially 2D)
 ,-._.,--'_ `.   _.,-`                             * Digital audio processing and synthesis
