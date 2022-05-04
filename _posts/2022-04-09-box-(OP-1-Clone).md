@@ -15,7 +15,7 @@ Got pixel image rendering working
 
 <img width="500" alt="doom_render" src="https://user-images.githubusercontent.com/53409587/166711911-4c0426ed-5d08-4172-9c36-9cc70f3c1aba.png"> <img width="500" alt="rectangle_test_render" src="https://user-images.githubusercontent.com/53409587/166711983-8da3eee8-0c06-4d64-9063-c0d45b3e50f6.png">
 
-I'm using allolib's Image class, which stores images as a vector of <uint8_t>
+I'm using allolib's Image class, which stores images as a vector of uint8_t's
 
 Every 4 indices represents a pixel's Red, Green, Blue, and transparency values (stride = 4)
 
