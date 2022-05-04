@@ -10,8 +10,7 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
-## May 4th:
-Got pixel image rendering working
+## May 4th: Got pixel image rendering working
 
 <img width="400" alt="doom_render" src="https://user-images.githubusercontent.com/53409587/166711911-4c0426ed-5d08-4172-9c36-9cc70f3c1aba.png"> <img width="400" alt="rectangle_test_render" src="https://user-images.githubusercontent.com/53409587/166711983-8da3eee8-0c06-4d64-9063-c0d45b3e50f6.png">
 
@@ -55,8 +54,7 @@ Here's how I got the image to be centered, one kind of annoying thing is that I 
 
 ALSO note to self: use square images that are multiples of 2^n i.e. 2x2, 4x4, 16x16, 2048x2048 because they are better optimized or something
 
-## April 29th:
-Got pixel drawing working
+## April 29th: Got pixel drawing working
 
 {% include embed.html url="https://www.youtube.com/embed/k90510pb15o" %}
 
@@ -69,8 +67,7 @@ Circles are very symmetrical, so you can save a lot of time by just making 1 com
 
 
 
-### April 28th:
-Got wav visuals working
+## April 28th: Got wav visuals working
 {% include embed.html url="https://www.youtube.com/embed/_pIKUf-R2VU" %}
 * Also started working on 2d pixel art filter
 * I think the basic idea is to render to a frame buffer of the desired size (240 x 160), and make that into a texture.
@@ -92,15 +89,13 @@ Got wav visuals working
   * I think this gives it enough of a retro look (equivalent to Gameboy Advance), but also gives the freedom to upsample if needed (i.e. wav visuals should be higher resolution)
 
 
-### April 15th:
-Got the subtractive synthesizer working. 
+## April 15th: Got the subtractive synthesizer working. 
 * For now it's just the basic tutorial one (16 sines and 16 envelopes), but I think it'll be pretty easy to change the architecture later. 
 * Also organized the sampler into classes. Side note: Allolib + Gamma is really cool and handles all the complex code so it's actually really easy to make cool stuff.
 
 I also got started ordering proof of concept parts, and GOD DAMN are SMD breakout boards expensive (Adafruit ones are ~$2.5 each but almost all others are >$7)
 {% include embed.html url="https://www.youtube.com/embed/9Ugzczsdl9c" %}
 
-### April 9th:
-Got the MPC3000 clone working
+## April 9th: Got the MPC3000 clone working
 * Had some trouble making it OOP, but it works I guess ¯\_(ツ)_/¯
 {% include embed.html url="https://www.youtube.com/embed/0GinlhEjZQA" %}
