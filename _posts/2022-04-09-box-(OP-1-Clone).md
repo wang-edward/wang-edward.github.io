@@ -47,7 +47,7 @@ for (int y=image.height()-1;y>=0;y--) {
 }
 ```
 
-Here's how I got the image to be centered, one kind of annoying thing is that I made the MF DOOM head asymmetrical (odd pixel width) so I can't actually center it. Kinda nice how the integer rounding actually helps me here though!
+Here's how I got the image to be centered, one kind of annoying thing is that I made the MF DOOM head asymmetrical (odd pixel width) when I drew it, so I can't actually center it. Kinda nice how the integer rounding is actually useful here though!
 <img width="777" alt="Screen Shot 2022-05-04 at 11 15 11 AM" src="https://user-images.githubusercontent.com/53409587/166713401-b8dad759-1e91-43a8-8588-c9763507a1ef.png">
 
 ALSO note to self: use square images that are multiples of 2^n i.e. 2x2, 4x4, 16x16, 2048x2048
