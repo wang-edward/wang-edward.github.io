@@ -10,7 +10,7 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
-### May 4th:
+## May 4th:
 Got pixel image rendering working
 
 <img width="500" alt="doom_render" src="https://user-images.githubusercontent.com/53409587/166711911-4c0426ed-5d08-4172-9c36-9cc70f3c1aba.png"> <img width="500" alt="rectangle_test_render" src="https://user-images.githubusercontent.com/53409587/166711983-8da3eee8-0c06-4d64-9063-c0d45b3e50f6.png">
@@ -23,6 +23,9 @@ I'm then just iterating through the pixels to plot each one on the screen. You h
 ```cpp
 stbi_set_flip_vertically_on_load(true);
 ```
+
+<img width="942" alt="opengl_vs_stb_coords" src="https://user-images.githubusercontent.com/53409587/166716700-215ef188-0ce1-4457-9ee8-ca3f2eb63a14.png">
+
 The only thing was, I was worried that it would mess up other texture rendering services (in allolib), so even though it's more annoying this way, it will probably end up better overall.
 
 I feel like in general the double for loop is a super slow approach, but I'm also not sure how to make it better. The one thing I did think of is to not run plot_pixel() if the pixel has a transparency of 0 (visibility of 0?) because it won't be visible anyway.
@@ -50,9 +53,9 @@ for (int y=image.height()-1;y>=0;y--) {
 Here's how I got the image to be centered, one kind of annoying thing is that I made the MF DOOM head asymmetrical (odd pixel width) when I drew it, so I can't actually center it. Kinda nice how the integer rounding is actually useful here though!
 <img width="777" alt="Screen Shot 2022-05-04 at 11 15 11 AM" src="https://user-images.githubusercontent.com/53409587/166713401-b8dad759-1e91-43a8-8588-c9763507a1ef.png">
 
-ALSO note to self: use square images that are multiples of 2^n i.e. 2x2, 4x4, 16x16, 2048x2048
+ALSO note to self: use square images that are multiples of 2^n i.e. 2x2, 4x4, 16x16, 2048x2048 because they are better optimized or something
 
-### April 29th:
+## April 29th:
 Got pixel drawing working
 
 {% include embed.html url="https://www.youtube.com/embed/k90510pb15o" %}
