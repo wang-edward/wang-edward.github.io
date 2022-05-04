@@ -19,11 +19,16 @@ I'm using allolib's Image class, which stores images as a vector of uint8_t's
 
 Every 4 indices represents a pixel's Red, Green, Blue, and transparency values (stride = 4)
 
-I'm then just iterating through the pixels to plot each one on the screen. I feel like this is a super slow approach, but I'm also not sure how to make it better. The one thing I did think of is to not run plot_pixel() if the pixel has a transparency of 0 (visibility of 0?) because it won't be visible anyway.
+I'm then just iterating through the pixels to plot each one on the screen. You have to iterate in reverse because stb has a different coordinate system than openGL (see below). This means if I draw it regularly, it will actually be flipped upside down. I think the "official" way to fix this is to run:
+```cpp
+stbi_set_flip_vertically_on_load(true);
+```
+The only thing was, I was worried that it would mess up other texture rendering services (in allolib), so even though it's more annoying this way, it will probably end up better overall.
+
+I feel like in general the double for loop is a super slow approach, but I'm also not sure how to make it better. The one thing I did think of is to not run plot_pixel() if the pixel has a transparency of 0 (visibility of 0?) because it won't be visible anyway.
 ```cpp
 int position = x_position * t_width + y_position;
 
-// Iterate in reverse because the Image class stores files from bottom -> top, not top -> bottom #openglmoment
 for (int y=image.height()-1;y>=0;y--) { 
     for (int x=image.width()-1;x>=0;x--) {
     
