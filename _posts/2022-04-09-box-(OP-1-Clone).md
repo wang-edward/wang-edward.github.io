@@ -10,6 +10,40 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
+### May 4th:
+Got pixel image rendering working
+<img width="500" alt="doom_render" src="https://user-images.githubusercontent.com/53409587/166711911-4c0426ed-5d08-4172-9c36-9cc70f3c1aba.png"> <img width="500" alt="rectangle_test_render" src="https://user-images.githubusercontent.com/53409587/166711983-8da3eee8-0c06-4d64-9063-c0d45b3e50f6.png">
+
+I'm using allolib's Image class, which stores images as a vector of <uint8_t>
+
+Every 4 indices represents a pixel's Red, Green, Blue, and transparency values (stride = 4)
+
+I'm then just iterating through the pixels to plot each one on the screen. I feel like this is a super slow approach, but I'm also not sure how to make it better. The one thing I did think of is to not run plot_pixel() if the pixel has a transparency of 0 (visibility of 0?) because it won't be visible anyway.
+```cpp
+int position = x_position * t_width + y_position;
+
+// Iterate in reverse because the Image class stores files from bottom -> top, not top -> bottom #openglmoment
+for (int y=image.height()-1;y>=0;y--) { 
+    for (int x=image.width()-1;x>=0;x--) {
+    
+        int red = get_image_index(x, y, image);
+        int green = red + 1;
+        int blue = red + 2;
+        int a = red + 3;
+
+        if (a!=0) {
+            al::Color c (image.array()[red]/255., image.array()[green]/255., image.array()[blue]/255., image.array()[a]/255.);
+
+            plot_pixel(c, x_position - x, y_position - y);
+        }
+        
+    }
+}
+```
+
+Here's how I got the image to be centered, one kind of annoying thing is that I made the MF DOOM head asymmetrical (odd pixel width) so I can't actually center it. Kinda nice how the integer rounding actually helps me here though!
+<img width="777" alt="Screen Shot 2022-05-04 at 11 15 11 AM" src="https://user-images.githubusercontent.com/53409587/166713401-b8dad759-1e91-43a8-8588-c9763507a1ef.png">
+
 ### April 29th:
 Got pixel drawing working
 
