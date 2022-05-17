@@ -10,6 +10,21 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
+## May 16th: Hardware - I2C GPIO Expander
+
+Got my prototype GPIO expander working.
+
+{% include embed.html url="https://www.youtube.com/embed/GrQHEn_yZ8Y" %}
+
+I'm using the CAT9555, an I2C chip with 16 input/output pins.
+
+It communicates over I2C, which is really nice because it only uses 2 pins, SDA and SCL
+
+Additionally, you can chain them together, with up to 8 on the same 2 lines by modifying the I2C address pins, which lets you have up to 128 IO lines with only 2 pins!!!! (8 IC's should still be within the [3mA limit](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+![i2c_diagram](https://user-images.githubusercontent.com/53409587/168877401-1ec0f126-641b-45dc-bb24-0303db834b39.png)
+credit: [bluedot](https://www.bluedot.space/tutorials/how-many-devices-can-you-connect-on-i2c-bus/)
+
+
 ## May 4th: Got pixel image rendering working
 
 <img width="400" alt="doom_render" src="https://user-images.githubusercontent.com/53409587/166711911-4c0426ed-5d08-4172-9c36-9cc70f3c1aba.png"> <img width="400" alt="rectangle_test_render" src="https://user-images.githubusercontent.com/53409587/166711983-8da3eee8-0c06-4d64-9063-c0d45b3e50f6.png">
