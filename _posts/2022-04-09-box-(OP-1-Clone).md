@@ -10,6 +10,15 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
+## June 6th: HDMI LCD display came!!
+
+{% include embed.html url="https://www.youtube.com/embed/J8syuFlKLwY" %}
+
+There's still a lot of problems with this design:
+- HDMI audio works, but I can't get pulseAudio (with Gamma) to recognize it as a device
+- I bought the wrong display 💀 (so there's no screws to attach it)
+- Lastly, I still haven't figured out cross compiling 
+
 ## May 16th: Hardware - I2C GPIO Expander
 
 Got my prototype GPIO expander working.
