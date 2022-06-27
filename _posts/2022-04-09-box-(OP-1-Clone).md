@@ -10,6 +10,30 @@ To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://gi
 
 I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
 
+## June 26th: Built box on the radxa zero
+{% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
+- Basically the same process as allolib/allotemplate
+- Made me realise that I did a ton of unnecessary setup (linking my own gamma/sndfile libraries for example)
+- Pretty cool that it works
+- Also got GPIO working
+- Once I have an i2c demo done I'm gonna order the PCBs!!!
+
+## June 20th: Built allolib on the radxa zero
+{% include embed.html url="https://www.youtube.com/embed/eoLglYR7Tn8" %}
+
+This actually took me a really long time (~3 weeks)
+
+Ran into a bunch of issues
+
+- No OpenGL support :(
+  - I actually started with a Raspberry pi 4 (thanks to the Gaming Warlord Titan Pharaoh Jacob Lin)
+  - Raspbian only has support for OpenGL 3.1 for some reason, even though the hardware is capable of 3.2
+  - GLFW (windowing system) needs OpenGL 3.2 as a minimum, so it could never create the window
+  - I didn't know about this (or that the radxa zero actually supported 3.2) so buying the radxa was complete luck 
+- No wifi support for AP6212 chip (wifi/bluetooth module was replaced on the radxa zero due to supply issues, many distributions didn't have firmware
+- Had to flash ~5 times? Manjaro, 3 versions of Armbian, and I also tried starting with ubuntu server and manually downloading a desktop environment
+  - eventually succeeded with debian desktop (which actually seems like the most straightforward approach, not sure why I didn't do it first)
+
 ## June 6th: HDMI LCD display came!!
 
 {% include embed.html url="https://www.youtube.com/embed/J8syuFlKLwY" %}
