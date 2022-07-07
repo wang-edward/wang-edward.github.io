@@ -4,11 +4,16 @@ layout: post
 categories: media
 ---
 
-I started working on my new synth, which is a clone of the OP-1 this time.
+# Latest:
+{% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
 
-To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://github.com/prajwal1121/Portable-Synth "Portable Synth"), as well as the [OTTO Project](https://github.com/bitfieldaudio/OTTO "OTTO Project")
+## July 7th: timeline + new terminal setup
+- Kinda busy lately but implemented recording/timeline
+- Idk how optimized it is (I feel like I'm checking positions super redundantly + wasting alot of memory)
+- Fun Anecdote: got stuck for like a week on the difference between deque & vector and push_back & emplace_back
 
-I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
+### ALSO I got a new terminal setup (copied from jdh)
+<img width="1440" alt="Screen Shot 2022-07-07 at 5 21 47 PM" src="https://user-images.githubusercontent.com/53409587/177873498-b48e6c27-701e-46dc-96a3-c8e8f12b742b.png">
 
 ## June 26th: Built box on the radxa zero
 {% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
@@ -147,3 +152,10 @@ I also got started ordering proof of concept parts, and GOD DAMN are SMD breakou
 ## April 9th: Got the MPC3000 clone working
 * Had some trouble making it OOP, but it works I guess ¯\_(ツ)_/¯
 {% include embed.html url="https://www.youtube.com/embed/0GinlhEjZQA" %}
+
+## April something: starting point
+
+I started working on my new synth, which is a clone of the OP-1 this time.
+
+To start, I was heavily inspired by Prajwal Mahesh's [Portable Synth](https://github.com/prajwal1121/Portable-Synth "Portable Synth"), as well as the [OTTO Project](https://github.com/bitfieldaudio/OTTO "OTTO Project")
+I'm going to try and make updates to this post as I go, as last time it was really annoying to go back and reupdate things.
