@@ -26,6 +26,10 @@ categories: media
 ## June 20th: Built allolib on the radxa zero
 {% include embed.html url="https://www.youtube.com/embed/eoLglYR7Tn8" %}
 
+I decided to build natively instead of cross compiling
+- Native compiles literally take >20 minutes 
+- I think overall the compile time doesn't matter that much since I only need to rebuild when I add a new library
+
 This actually took me a really long time (~3 weeks)
 
 Ran into a bunch of issues
