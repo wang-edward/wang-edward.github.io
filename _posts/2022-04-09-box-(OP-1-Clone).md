@@ -7,6 +7,14 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
 
+## August 9th: PCB almost done
+- Pretty close on the PCB, gonna order this week I think
+- Here's some pics :)
+- ![fullboard](https://user-images.githubusercontent.com/53409587/183802078-edd3fed3-85ce-42bb-8090-d994eae4b353.png)
+- Also here's an interesting pic of the USB-C port
+- ![E pic](https://user-images.githubusercontent.com/53409587/183802199-8f8bcf2d-81b8-4b5e-8264-6ef077503669.png)
+
+
 ## July 7th: timeline + new terminal setup
 - Kinda busy lately but implemented recording/timeline
 - Idk how optimized it is (I feel like I'm checking positions super redundantly + wasting alot of memory)
