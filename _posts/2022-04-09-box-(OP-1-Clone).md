@@ -7,6 +7,10 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
 
+## August 16th: PCB DONE!!!!!!!!!!!!!!!!!!!!
+<img width="706" alt="Screen Shot 2022-08-16 at 3 38 36 AM" src="https://user-images.githubusercontent.com/53409587/184826961-1e4381cb-a2b0-41a7-a7ff-7a7c07a7da52.png">
+- Shoutout the crodem from JLCPCB, repping my ends fr 🇨🇳🇨🇳🇨🇳🇨🇳🇨🇳🥶🥶🥶🥶
+
 ## August 9th: PCB almost done
 - ![fullboard](https://user-images.githubusercontent.com/53409587/183802078-edd3fed3-85ce-42bb-8090-d994eae4b353.png)
 - Also here's an interesting pic of the USB-C port
