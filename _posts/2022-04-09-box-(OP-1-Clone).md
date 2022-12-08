@@ -16,13 +16,12 @@ categories: media
 - Also here's an interesting pic of the USB-C port
 - ![E pic](https://user-images.githubusercontent.com/53409587/183802199-8f8bcf2d-81b8-4b5e-8264-6ef077503669.png)
 - Pretty close on the PCB, gonna order this week I think
-- Here's some pics :)
 
 
 ## July 7th: timeline + new terminal setup
 - Kinda busy lately but implemented recording/timeline
 - Idk how optimized it is (I feel like I'm checking positions super redundantly + wasting alot of memory)
-- Fun Anecdote: got stuck for like a week on the difference between deque & vector and push_back & emplace_back
+- Started reading A Tour of C++ by Bjarne Stroustrup, really need to get better at c++
 
 ### ALSO I got a new terminal setup (copied from jdh)
 <img width="1440" alt="Screen Shot 2022-07-07 at 5 21 47 PM" src="https://user-images.githubusercontent.com/53409587/177873498-b48e6c27-701e-46dc-96a3-c8e8f12b742b.png">
