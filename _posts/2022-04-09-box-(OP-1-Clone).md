@@ -7,6 +7,16 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
 
+## Jan 11th (2023): Resources for I2c programming
+
+http://embeddedcraft.org/eclinux/linuxi2c.html
+
+Very frustrating that I still haven't gotten I2c working, pretty much the only thing that's holding me back.
+
+In retrospect, I should've done it before designing PCB / Buying parts (sunk cost?)
+
+School also kinda hitting rn
+
 ## August 16th: PCB DONE!!!!!!!!!!!!!!!!!!!!
 <img width="706" alt="Screen Shot 2022-08-16 at 3 38 36 AM" src="https://user-images.githubusercontent.com/53409587/184826961-1e4381cb-a2b0-41a7-a7ff-7a7c07a7da52.png">
 - Shoutout the crodem from JLCPCB, repping my ends fr 🇨🇳🇨🇳🇨🇳🇨🇳🇨🇳🥶🥶🥶🥶
