@@ -7,9 +7,29 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
 
-## Jan 11th (2023): Resources for I2c programming
+## Jan 11th: UI Framework
+
+Read A Tour of C++, realized my code before was really really really really really bad.
+
+Starting to work on a component based UI system, taking a lot of inspiration from the Flutter framework:
+
+![image](https://user-images.githubusercontent.com/53409587/211891608-d34ade1e-9407-45e6-b451-0ba858c293fe.png)
+
+Haven't really seen any other GUI implementations that I like, though that only includes Tkinter (python) and Swing (Java).
+
+I guess the cool part is that the structure is really obvious (telescoping parent -> child relationship).
+
+A big thing that I have to think about when writing the framework is making it easy for others to build their own plugins (+ gui).
+
+For the teensy-juno and a lot of other hardware + software projects my code has been absolutely atrocious, a big reason being that once you upload the code nobody can really see it anymore.
+
+Also Robotics Team at uWaterloo in 1st sem improved my c++ A LOT, really thankful for the experience.
+
+## Jan 10th (2023): Resources for I2c programming
 
 http://embeddedcraft.org/eclinux/linuxi2c.html
+
+https://elinux.org/Interfacing_with_I2C_Devices
 
 Very frustrating that I still haven't gotten I2c working, pretty much the only thing that's holding me back.
 
