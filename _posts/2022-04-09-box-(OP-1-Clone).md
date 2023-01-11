@@ -13,7 +13,7 @@ Read A Tour of C++, realized my code before was really really really really real
 
 Starting to work on a component based UI system, taking a lot of inspiration from the Flutter framework:
 
-![image](https://user-images.githubusercontent.com/53409587/211891608-d34ade1e-9407-45e6-b451-0ba858c293fe.png)
+![image](https://images.ctfassets.net/cjwb7umaxoxv/713rPUyTZ0bvn5YcwjLiN0/0013ddf191cba9084aa06c86d561ab01/1_Sqb5VpjIx7EcJkngTRSNFA__1_.png)
 
 Haven't really seen any other GUI implementations that I like, though that only includes Tkinter (python) and Swing (Java).
 
