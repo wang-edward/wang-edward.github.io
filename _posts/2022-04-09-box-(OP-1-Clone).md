@@ -9,7 +9,7 @@ categories: media
 
 ## Jan 11th: UI Framework
 
-Read A Tour of C++, realized my code before was really really really really really bad.
+Read A Tour of C++, realized my code before was pretty bad.
 
 Starting to work on a component based UI system, taking a lot of inspiration from the Flutter framework:
 
@@ -21,7 +21,7 @@ I guess the cool part is that the structure is really obvious (telescoping paren
 
 A big thing that I have to think about when writing the framework is making it easy for others to build their own plugins (+ gui).
 
-For the teensy-juno and a lot of other hardware + software projects my code has been absolutely atrocious, a big reason being that once you upload the code nobody can really see it anymore.
+For the teensy-juno and a lot of other hardware + software projects my code has been absolutely atrocious, a big reason being that once you flash the code nobody can really see it anymore.
 
 Also Robotics Team at uWaterloo in 1st sem improved my c++ A LOT, really thankful for the experience.
 
@@ -39,7 +39,7 @@ School also kinda hitting rn
 
 ## August 16th: PCB DONE!!!!!!!!!!!!!!!!!!!!
 <img width="706" alt="Screen Shot 2022-08-16 at 3 38 36 AM" src="https://user-images.githubusercontent.com/53409587/184826961-1e4381cb-a2b0-41a7-a7ff-7a7c07a7da52.png">
-- Shoutout the crodem from JLCPCB, repping my ends fr 🇨🇳🇨🇳🇨🇳🇨🇳🇨🇳🥶🥶🥶🥶
+- It's actually amazing how quickly JLCPCB processes orders
 
 ## August 9th: PCB almost done
 - ![fullboard](https://user-images.githubusercontent.com/53409587/183802078-edd3fed3-85ce-42bb-8090-d994eae4b353.png)
