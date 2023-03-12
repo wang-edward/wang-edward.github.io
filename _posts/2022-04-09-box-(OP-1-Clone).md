@@ -9,7 +9,7 @@ categories: media
 
 ## Jan 11th: UI Framework
 
-Read A Tour of C++, realized my code before was pretty bad.
+Finished reading A Tour of C++, realized my code before was really bad.
 
 Starting to work on a component based UI system, taking a lot of inspiration from the Flutter framework:
 
