@@ -76,7 +76,7 @@ This actually took me a really long time (~3 weeks)
 Ran into a bunch of issues
 
 - No OpenGL support :(
-  - I actually started with a Raspberry pi 4 (thanks to the Gaming Warlord Titan Pharaoh Jacob Lin)
+  - I actually started my testing using a Raspberry pi 4 (thanks to the Gaming Warlord Titan Pharaoh Jacob Lin)
   - Raspbian only has support for OpenGL 3.1 for some reason, even though the hardware is capable of 3.2
   - GLFW (windowing system) needs OpenGL 3.2 as a minimum, so it could never create the window
   - I didn't know about this (or that the radxa zero actually supported 3.2) so buying the radxa was complete luck 
@@ -195,7 +195,6 @@ I also got started ordering proof of concept parts, and GOD DAMN are SMD breakou
 {% include embed.html url="https://www.youtube.com/embed/9Ugzczsdl9c" %}
 
 ## April 9th: Got the MPC3000 clone working
-* Had some trouble making it OOP, but it works I guess ¯\_(ツ)_/¯
 {% include embed.html url="https://www.youtube.com/embed/0GinlhEjZQA" %}
 
 ## April something: starting point
