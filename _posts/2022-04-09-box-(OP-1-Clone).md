@@ -14,6 +14,7 @@ Finally got multiple GPIO expanders working
 My main problem before was burning out ics (and not realizing it)
 
 The soldering method I used before was the "lake of solder", where you flood the component with solder, and then remove the excess with a solder wick.
+Learned it from this video :
 {% include embed.html url="https://www.youtube.com/embed/VxMV6wGS3NY?t=567" %}
 
 I might've been doing it wrong, but this method didn't really work for me. I'm gussing the excess solder increased the surface area for heat transmission, which made it really easy to overheat components.
@@ -42,11 +43,12 @@ Benefits:
 * Fast
 * Gets solder under the pin (image)
 
-
-
 Drawbacks:
 * Dubious mechanical connection (?)
 
+Screenshot showing importance of preparing (cleaning) pads
+![Screen Shot 2023-04-20 at 1 59 18 AM](https://user-images.githubusercontent.com/53409587/233273058-a05dc973-f03a-4031-a0f3-71a90d46b102.png)
+Credit: [Androkavo](https://www.youtube.com/@Androkavo/featured)
 
 ## Jan 11th: UI Framework
 
