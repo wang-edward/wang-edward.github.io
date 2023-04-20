@@ -5,7 +5,48 @@ categories: media
 ---
 
 # Latest:
-{% include embed.html url="https://www.youtube.com/embed/7L5JRVEC_is" %}
+{% include embed.html url="https://www.youtube.com/embed/B_S9V3fp8lE" %}
+
+## Apr 20: Multiple GPIO expanders
+
+Finally got multiple GPIO expanders working
+
+My main problem before was burning out ics (and not realizing it)
+
+The soldering method I used before was the "lake of solder", where you flood the component with solder, and then remove the excess with a solder wick.
+{% include embed.html url="https://www.youtube.com/embed/VxMV6wGS3NY?t=567" %}
+
+I might've been doing it wrong, but this method didn't really work for me. I'm gussing the excess solder increased the surface area for heat transmission, which made it really easy to overheat components.
+
+A method I found that actually worked for me is derived from this video:
+
+https://youtu.be/
+{% include embed.html url="https://www.youtube.com/embed/-l5D2em4PBI?t=28" %}
+
+Steps:
+* Apply flux (solid paste type) onto the pads
+* Add a small but nonzero amount of solder directly onto the iron
+* Go over the pads with the iron, evaporating the flux. Try to get the solder placed onto the pads evenly, and get a flat surface. 
+  * The less solder you use the flatter it'll be - meaning easier to solder but a weaker connection
+* Use tweezers to place the IC in the correct position (and orientation!!!)
+* Solder the corner (or an entire side if it's flat enough)
+* Solder the other corner
+* Add flux onto the pins (again)
+* Slide the iron downwards to heat all the pins & evaporate solder. Make sure to take breaks to avoid overheating
+* Go back and fix bridges / missed connections with iron
+* Use alcohol + tissue to remove flux
+
+Benefits:
+* Lower likelihood of burning components
+* Less mess (no excess solder + wick)
+* Fast
+* Gets solder under the pin (image)
+
+
+
+Drawbacks:
+* Dubious mechanical connection (?)
+
 
 ## Jan 11th: UI Framework
 
