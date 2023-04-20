@@ -16,7 +16,7 @@ My main problem before was burning out ics (and not realizing it)
 The soldering method I used before was the "lake of solder", where you flood the component with solder, and then remove the excess with a solder wick.
 Learned it from [this video](https://www.youtube.com/embed/VxMV6wGS3NY?t=567) :
 
-I might've been doing it wrong, but this method didn't really work for me. I'm gussing the excess solder increased the surface area for heat transmission, which made it really easy to overheat components.
+I might've been doing it wrong, but this method didn't really work for me. I guess the excess solder increased the surface area for heat transmission, which made it really easy to overheat components.
 
 A method I found that actually worked for me is derived from [this video](https://www.youtube.com/embed/-l5D2em4PBI?t=28):
 
