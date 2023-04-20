@@ -14,15 +14,11 @@ Finally got multiple GPIO expanders working
 My main problem before was burning out ics (and not realizing it)
 
 The soldering method I used before was the "lake of solder", where you flood the component with solder, and then remove the excess with a solder wick.
-Learned it from this video :
-{% include embed.html url="https://www.youtube.com/embed/VxMV6wGS3NY?t=567" %}
+Learned it from [this video](https://www.youtube.com/embed/VxMV6wGS3NY?t=567) :
 
 I might've been doing it wrong, but this method didn't really work for me. I'm gussing the excess solder increased the surface area for heat transmission, which made it really easy to overheat components.
 
-A method I found that actually worked for me is derived from this video:
-
-https://youtu.be/
-{% include embed.html url="https://www.youtube.com/embed/-l5D2em4PBI?t=28" %}
+A method I found that actually worked for me is derived from [this video](https://www.youtube.com/embed/-l5D2em4PBI?t=28):
 
 Steps:
 * Apply flux (solid paste type) onto the pads
@@ -46,34 +42,16 @@ Benefits:
 Drawbacks:
 * Dubious mechanical connection (?)
 
-Screenshot showing importance of preparing (cleaning) pads
+Image showing importance of preparing (cleaning) pads
 
 ![Screen Shot 2023-04-20 at 1 59 18 AM](https://user-images.githubusercontent.com/53409587/233273058-a05dc973-f03a-4031-a0f3-71a90d46b102.png)
 Credit: [Androkavo](https://www.youtube.com/@Androkavo/featured)
 
-## Jan 11th: UI Framework
-
-Finished reading A Tour of C++, realized my code before was really bad.
-
-Starting to work on a component based UI system, taking a lot of inspiration from the Flutter framework:
-
-![image](https://images.ctfassets.net/cjwb7umaxoxv/713rPUyTZ0bvn5YcwjLiN0/0013ddf191cba9084aa06c86d561ab01/1_Sqb5VpjIx7EcJkngTRSNFA__1_.png)
-
-Haven't really seen any other GUI implementations that I like, though that only includes Tkinter (python) and Swing (Java).
-
-I guess the cool part is that the structure is really obvious (telescoping parent -> child relationship).
-
-A big thing that I have to think about when writing the framework is making it easy for others to build their own plugins (+ gui).
-
-For the teensy-juno and a lot of other hardware + software projects my code has been absolutely atrocious, a big reason being that once you flash the code nobody can really see it anymore.
-
-Also Robotics Team at uWaterloo in 1st sem improved my c++ A LOT, really thankful for the experience.
-
 ## Jan 10th (2023): Resources for I2c programming
 
-http://embeddedcraft.org/eclinux/linuxi2c.html
+[http://embeddedcraft.org/eclinux/linuxi2c.html](http://embeddedcraft.org/eclinux/linuxi2c.html)
 
-https://elinux.org/Interfacing_with_I2C_Devices
+[https://elinux.org/Interfacing_with_I2C_Devices](http://embeddedcraft.org/eclinux/linuxi2c.html)
 
 Very frustrating that I still haven't gotten I2c working, pretty much the only thing that's holding me back.
 
