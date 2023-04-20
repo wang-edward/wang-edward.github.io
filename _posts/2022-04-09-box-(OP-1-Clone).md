@@ -47,6 +47,7 @@ Drawbacks:
 * Dubious mechanical connection (?)
 
 Screenshot showing importance of preparing (cleaning) pads
+
 ![Screen Shot 2023-04-20 at 1 59 18 AM](https://user-images.githubusercontent.com/53409587/233273058-a05dc973-f03a-4031-a0f3-71a90d46b102.png)
 Credit: [Androkavo](https://www.youtube.com/@Androkavo/featured)
 
