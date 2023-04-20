@@ -8,14 +8,12 @@ layout: page
           .,
 .      _,'f----.._
 |\ ,-'"/  |     ,'
-|,_  ,--.      /              Computer Science + Finance Student at uWaterloo + Laurier
+|,_  ,--.      /              Computer Science at uWaterloo
 /,-. ,'`.     (_                        Interested in:
-f  o|  o|__     "`-.                              * Computer graphics (especially 2D)
-,-._.,--'_ `.   _.,-`                             * Digital audio processing and synthesis
-`"' ___.,'` j,-'                                  * PCB design and analog signal processing
-  `-.__.,--'                                      
+f  o|  o|__     "`-.                              * Computer graphics
+,-._.,--'_ `.   _.,-`                             * Digital signal processing and synthesis
+`"' ___.,'` j,-'                                  * PCB design
+  `-.__.,--'                                      * Compilers
 ```
 
-
-
-![selfie](https://user-images.githubusercontent.com/53409587/166131552-dacf2a49-02d9-4a7a-8f52-29a31b01ad85.JPG)
+![image](https://user-images.githubusercontent.com/53409587/233295073-aa6d031e-b5c8-40ab-bd40-e1935a6d2408.png)
