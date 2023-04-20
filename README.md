@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-```cpp
+```
           .,
 .      _,'f----.._
 |\ ,-'"/  |     ,'
