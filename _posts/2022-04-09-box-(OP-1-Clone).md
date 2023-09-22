@@ -7,65 +7,13 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/B_S9V3fp8lE" %}
 
-## Apr 20: Multiple GPIO expanders
-
-Finally got multiple GPIO expanders working
-
-My main problem before was burning out ics (and not realizing it)
-
-The soldering method I used before was the "lake of solder", where you flood the component with solder, and then remove the excess with a solder wick.
-Learned it from [this video](https://www.youtube.com/embed/VxMV6wGS3NY?t=567) :
-
-I might've been doing it wrong, but this method didn't really work for me. I guess the excess solder increased the surface area for heat transmission, which made it really easy to overheat components.
-
-A method I found that actually worked for me is derived from [this video](https://www.youtube.com/embed/-l5D2em4PBI?t=28):
-
-Steps:
-* Apply flux (solid paste type) onto the pads
-* Add a small but nonzero amount of solder directly onto the iron
-* Go over the pads with the iron, evaporating the flux. Try to get the solder placed onto the pads evenly, and get a flat surface. 
-  * The less solder you use the flatter it'll be - meaning easier to solder but a weaker connection
-* Use tweezers to place the IC in the correct position (and orientation!!!)
-* Solder the corner (or an entire side if it's flat enough)
-* Solder the other corner
-* Add flux onto the pins (again)
-* Slide the iron downwards to heat all the pins & evaporate solder. Make sure to take breaks to avoid overheating
-* Go back and fix bridges / missed connections with iron
-* Use alcohol + tissue to remove flux
-
-Benefits:
-* Lower likelihood of burning components
-* Less mess (no excess solder + wick)
-* Fast
-* Gets solder under the pin (image)
-
-Drawbacks:
-* Dubious mechanical connection (?)
-
-Image showing importance of preparing (cleaning) pads
-
-![Screen Shot 2023-04-20 at 1 59 18 AM](https://user-images.githubusercontent.com/53409587/233273058-a05dc973-f03a-4031-a0f3-71a90d46b102.png)
-Credit: [Androkavo](https://www.youtube.com/@Androkavo/featured)
-
-## Jan 10th (2023): Resources for I2c programming
-
-[http://embeddedcraft.org/eclinux/linuxi2c.html](http://embeddedcraft.org/eclinux/linuxi2c.html)
-
-[https://elinux.org/Interfacing_with_I2C_Devices](http://embeddedcraft.org/eclinux/linuxi2c.html)
-
-Very frustrating that I still haven't gotten I2c working, pretty much the only thing that's holding me back.
-
-In retrospect, I should've done it before designing PCB / Buying parts (sunk cost?)
-
-School also kinda hitting rn
-
 ## August 16th: PCB DONE!!!!!!!!!!!!!!!!!!!!
 <img width="706" alt="Screen Shot 2022-08-16 at 3 38 36 AM" src="https://user-images.githubusercontent.com/53409587/184826961-1e4381cb-a2b0-41a7-a7ff-7a7c07a7da52.png">
-- It's actually amazing how quickly JLCPCB processes orders
+- It's pretty crazy how quickly JLCPCB processes orders
 
 ## August 9th: PCB almost done
 - ![fullboard](https://user-images.githubusercontent.com/53409587/183802078-edd3fed3-85ce-42bb-8090-d994eae4b353.png)
-- Also here's an interesting pic of the USB-C port
+- Close up
 - ![E pic](https://user-images.githubusercontent.com/53409587/183802199-8f8bcf2d-81b8-4b5e-8264-6ef077503669.png)
 - Pretty close on the PCB, gonna order this week I think
 
