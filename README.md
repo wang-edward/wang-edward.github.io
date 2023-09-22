@@ -5,15 +5,25 @@ layout: page
 ---
 
 ```
-          .,
-.      _,'f----.._
-|\ ,-'"/  |     ,'
-|,_  ,--.      /              Computer Science at uWaterloo
-/,-. ,'`.     (_                        Interested in:
-f  o|  o|__     "`-.                              * Computer graphics
-,-._.,--'_ `.   _.,-`                             * Digital signal processing and synthesis
-`"' ___.,'` j,-'                                  * PCB design
-  `-.__.,--'                                      * Compilers
+             ,----------------,              ,---------,
+        ,-----------------------,          ,"        ,"|
+      ,"                      ,"|        ,"        ,"  |
+     +-----------------------+  |      ,"        ,"    |
+     |  .-----------------.  |  |     +---------+      |
+     |  |                 |  |  |     | -==----'|      |
+     |  |  I LOVE DOS!    |  |  |     |         |      |          CS student at uWaterloo
+     |  |  Bad command or |  |  |/----|`---=    |      |
+     |  |  C:\>_          |  |  |   ,/|==== ooo |      ;          Interests:
+     |  |                 |  |  |  // |(((( [33]|    ,"                    * Robots
+     |  `-----------------'  |," .;'| |((((     |  ,"                      * Signal processing
+     +-----------------------+  ;;  | |         |,"                        * PCB Design
+        /_)______________(_/  //'   | +---------+
+   ___________________________/___  `,
+  /  oooooooooooooooo  .o.  oooo /,   \,"-----------
+ / ==ooooooooooooooo==.o.  ooo= //   ,`\--{)B     ,"
+/_==__==========__==_ooo__ooo=_/'   /___________,"
+`-----------------------------'
 ```
 
-![image](https://user-images.githubusercontent.com/53409587/233295073-aa6d031e-b5c8-40ab-bd40-e1935a6d2408.png)
+![image](https://github.com/wang-edward/wang-edward.github.io/assets/53409587/ece7c2ad-48d7-48ae-abdf-6f67d2ce4252)
+
