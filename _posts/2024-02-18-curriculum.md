@@ -12,3 +12,4 @@
 - What is a fourier transform? :skull: How is it used in audio?
   - More stuff about audio processing
 - How do ISRs work on modern computers? (not embedded)
+- How do timers work on modern computers? (not embedded)
