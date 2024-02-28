@@ -3,13 +3,16 @@
 - How are mutexes implemented at the assembly level?
 - How are atomic operations implemented?
 - Explain the main stages of the graphics rendering pipeline.
-- What does voltage really mean?
+- What actually is voltage?
 - How does a GPU prevent stalling?
-- What is SIMD and why does it help?
+- What is SIMD?
 - How do motors work?
 - What is a cache and why is it used?
 - How is audio handled in linux? Alsa, Pusleaudio?
-- What is a fourier transform? :skull: How is it used in audio?
+- What is a fourier transform? 💀 How is it used in audio?
   - More stuff about audio processing
 - How do ISRs work on modern computers? (not embedded)
 - How do timers work on modern computers? (not embedded)
+- How does a camera work?
+- ADC and DAC
+- What is pipelining?
