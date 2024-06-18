@@ -7,6 +7,14 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/B_S9V3fp8lE" %}
 
+## Jun 18th (2024):
+Restarting. Gonna use tracktion_engine for the core audio stuff and write an emulator with ncurses.
+
+Also moving from an hdmi display to pure 128x128 SPI. A lot simpler and also more unique.
+
+Lastly, the pi cm4 is back in stock so I think I'm gonna go with that this time. 
+I had a lot of trouble just getting i2c to work on the radxa, and it's better in both cost and time to use the pis.
+
 ## August 16th: PCB DONE!!!!!!!!!!!!!!!!!!!!
 <img width="706" alt="Screen Shot 2022-08-16 at 3 38 36 AM" src="https://user-images.githubusercontent.com/53409587/184826961-1e4381cb-a2b0-41a7-a7ff-7a7c07a7da52.png">
 - It's pretty crazy how quickly JLCPCB processes orders
