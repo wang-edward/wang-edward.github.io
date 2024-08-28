@@ -7,6 +7,11 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/B_S9V3fp8lE" %}
 
+## August 27th: progress
+The new stack is opengl and tracktion_engine. We've been making good progress on the audio and graphics.
+<img width="1440" alt="Screenshot 2024-08-27 at 10 57 40 PM" src="https://github.com/user-attachments/assets/57dfc83c-24b9-488b-afd9-af1e685191de">
+I'm starting to really hate c++. I want to rewrite the whole thing in c or zig but I'm worried that it won't work and I'll get stuck.
+
 ## Jun 18th (2024):
 Restarting. Gonna use tracktion_engine for the core audio stuff and write an emulator with ncurses.
 
