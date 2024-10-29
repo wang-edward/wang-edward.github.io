@@ -7,8 +7,17 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/B_S9V3fp8lE" %}
 
+## Oct 28: good progress
+<img width="1440" alt="Screenshot 2024-10-28 at 11 15 12 PM" src="https://github.com/user-attachments/assets/74ddb09e-204a-44df-91fb-6a1c0ed038ef">
+
+<img width="1440" alt="Screenshot 2024-10-17 at 3 44 26 PM" src="https://github.com/user-attachments/assets/9f300413-6993-4ee5-b3bc-2a2fc1eff31c">
+
+- plugins are pretty much figured out
+- got audio recording POC done. looking into midi and proper file saving next
+- overall doing well. but i think i can go faster
+
 ## August 27th: progress
-The new stack is opengl and tracktion_engine. We've been making good progress on the audio and graphics.
+The new stack is opengl and tracktion_engine. been making good progress on the audio and graphics.
 <img width="1440" alt="Screenshot 2024-08-27 at 11 04 40 PM" src="https://github.com/user-attachments/assets/82f250c2-e6d5-4613-ac5f-5517ea1a69e6">
 I'm starting to really hate c++. I want to rewrite the whole thing in c or zig but I'm worried that it won't work and I'll get stuck.
 
