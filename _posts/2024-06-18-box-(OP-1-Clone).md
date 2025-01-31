@@ -7,6 +7,31 @@ categories: media
 # Latest:
 {% include embed.html url="https://www.youtube.com/embed/B_S9V3fp8lE" %}
 
+## [Jan 25: Mac CI]([url](https://github.com/wang-edward/box/pull/162))
+- It's crazy how fast the M1 chips are.
+- Github provides 3x M1 CPUs in CI (for free). It compiles the project in just 3 minutes (as opposed to the 4x CPU ubuntu machines taking >30 minutes).
+- I don't wanna spend crazy time on this because it isn't the target hardware, but still cool and useful for development I guess.
+
+## Jan 15: Fuzzer
+- I'm really happy with this [fuzz test.]([url](https://github.com/wang-edward/box/pull/152))
+- Basically it generates a random sequence of inputs (like KEY_W, KEY_X, etc.) and sends them to the program.
+- The goal is to run random commands for 30 seconds without segfaulting
+  - On linux it's crashing pretty much every time because of the audio server stuff... This is like super important actually... I'm working on it...
+
+## Jan 4: Dockerfile
+- I'm still learning docker but... I saw in openpilot how they use a base image and another image on top of that
+- Definitely on the roadmap, I think it can make CI even faster. Also standardize the environment and stuff
+
+## Jan 2: clang-format
+- Thanks to @powei-lin for adding clang-format to the repo
+
+## Dec 31: cache CI
+- I started using cachev4 + ccache within github actions and it's really good.
+- The average ci time is ~3 minutes down from 30
+- Right now the main bottlenecks are the CMake generation step (which can't be cached?) and installing apt dependencies
+  - But I'm happy enough with the speed for now.
+
+
 ## Oct 28: good progress
 <img width="1440" alt="Screenshot 2024-10-28 at 11 15 12 PM" src="https://github.com/user-attachments/assets/74ddb09e-204a-44df-91fb-6a1c0ed038ef">
 
