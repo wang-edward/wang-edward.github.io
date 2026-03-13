@@ -1,4 +1,9 @@
-# Why Evolution is the Best Theory of Human Behaviour
+---
+title:  "Why Evolution is the Best Theory of Human Behaviour"
+layout: post
+categories: media
+---
+
 
 I really like the theory of Evolution because of its simplicity.
 I think if there had to be a “theory of everything” for explaining human behaviour, Evolution would be the best fit.
@@ -16,5 +21,4 @@ After each round, the top 10% (or some other threshold) reproduce and the rest d
 So the next round will contain only copies of the best performing agents from last round. 
 Over time this yields an agent that has a good strategy to play the game.
 
-Here’s a cool example of a genetic algorithm being used to learn how to play Super Mario.
-https://www.youtube.com/watch?v=qv6UVOQ0F44
+[Here’s a cool example of a genetic algorithm being used to learn how to play Super Mario.](https://www.youtube.com/watch?v=qv6UVOQ0F44)
