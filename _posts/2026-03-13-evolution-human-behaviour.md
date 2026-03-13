@@ -7,6 +7,7 @@ categories: media
 
 I really like the theory of Evolution because of its simplicity.
 I think if there had to be a “theory of everything” for explaining human behaviour, Evolution would be the best fit.
+
 One strong piece of evidence is the existence of genetic algorithms.
 Nobody would ever write a “Historical Materialist algorithm”, 
 where an optimal strategy to a game is developed by simulating the agents gaining class consciousness. 
