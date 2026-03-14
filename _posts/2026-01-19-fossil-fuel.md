@@ -14,8 +14,9 @@ Animals have been continuously dying since the beginning of time, so we actually
 
 [An explanation of the concept of pipelining from digital hardware design.](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/pipelining/index.html)
 
+## Appendix
 
-## Q: How are fossil fuels formed?
+### Q: How are fossil fuels formed?
 - They begin as animal remains.
 - Bacteria eat the stuff that's simple to digest like sugar, protein, fat.
 - What's left is kerogen.
@@ -38,7 +39,7 @@ Oil and gas are formed from animals that decompose in water. The difference betw
 Q: why does more energy (higher temp) make the substance into a less energetic form?
 - Idk yet
 
-## Q: How much fossil fuel is produced each year?
+### Q: How much fossil fuel is produced each year?
 - It depends on:
 1. How much was buried 1 million years ago
 2. How much of it is converted to fossil fuel
@@ -57,7 +58,7 @@ How much is converted to fossil fuel?
 
 TODO
 
-## Sources
+### Sources
 [Carbon Processing at the Seafloor](https://link.springer.com/chapter/10.1007/978-3-030-10822-9_4)
 
 [Organic carbon burial in global lakes and reservoirs](https://www.nature.com/articles/s41467-017-01789-6)
