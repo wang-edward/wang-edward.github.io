@@ -5,8 +5,8 @@ layout: page
 ---
 
 ```
-I am in my 3rd year of Computer Science at the University of Waterloo.
-My interests are Systems programming, Electronic music production, and Short films.
+I am in my 4th year of Computer Science at the University of Waterloo.
+My interests are Systems programming, Electronic music production, and Tennis.
 
 In the future I hope to pursue my youtube channel.
 ```
