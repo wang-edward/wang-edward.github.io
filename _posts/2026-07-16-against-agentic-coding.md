@@ -54,7 +54,7 @@ The strength of AI are it's crazy wide domain knowledge. The weakness is reasoni
 The strength of human intelligence is reasoning.
 By working together, you can produce better code and a more complete model of the problem.
 
-## PS: What about "vibe coding"?
+### PS: What about "vibe coding"?
 
 There's this idea in silicon valley that it's okay to not understand the code.
 And that it's okay to write bugs, as long as the AI is fixes the bugs fast enough.
