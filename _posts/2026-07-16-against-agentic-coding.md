@@ -31,9 +31,9 @@ Constantly thrashing your context like this makes you really tired, and it gets 
 ### 3: Errors
 All of this combines to make it a lot more difficult to verify the code that the AI generates.
 You might go into it with a P=NP idea where you say "it’s easier to verify code than to come up with it"
-- but that doesn’t take into consideration that the AI is persuading you that the solution is correct
-- and the hard part about verification is the conceptual and architectural considerations
-- if you haven’t been thinking about that (while you’re typing), its very hard to falsify the AI code
+- But that doesn’t take into consideration that the AI is persuading you that the solution is correct
+- And the hard part about verification is the conceptual and architectural considerations
+- If you haven’t been thinking about that (while you’re typing), its very hard to falsify the AI code
 
 ## So what's the solution?
 The solution is to use the chat.com or claude.ai website, and manually type the code that the AI produces.
