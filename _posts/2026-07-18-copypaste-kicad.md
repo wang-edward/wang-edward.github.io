@@ -14,8 +14,8 @@ You can use "Edit Page Number" in the Hierarchy panel to make the page numbers l
 If you're working with a clone of the example project then this is free.
 You also need to make the hierarchal schematics identical wrt symbol positions so that the references line up.
 
-## It's really important to make sure all the references are the same at this point
-## Look at the maximal index of each part type (e.g. if you have 30 caps, look for C{sheet_number}30)
+It's really important to make sure all the references are the same at this point
+Look at the maximal index of each part type (e.g. if you have 30 caps, look for C{sheet_number}30)
 
 Now you can copy paste the example layout in.
 Next, do "Update PCB from Schematic".
