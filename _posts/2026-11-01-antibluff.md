@@ -10,4 +10,7 @@ Conventional wisdom for negotiation would say to never reveal information that p
 And yet by revealing that he is desperate for the money, he actually gains position.
 I think this relates to the fight or flight phenomenon. Kind of like "a cornered animal is more dangerous than a free one"
 
+I think it's also why a homeless guy with a limp is more scary than one without one.
+You know he's desperate.
+
 {% include embed.html url="https://www.youtube.com/embed/KXgt5q3YflE" %}
